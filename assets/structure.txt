@@ -1,0 +1,25 @@
+General_Doc_QA_System/
+├── assets/                    # 静态资源文件夹
+│   └── (存放图片、示意图等，如 demo.png)
+│
+├── chroma/                    # Chroma 向量数据库持久化存储目录
+│   └── (自动创建，用于保存向量化后的文档索引)
+│
+├── db/                        # 数据库相关配置或缓存（可选）
+│
+├── logs/                      # 日志输出目录
+│   └── app.log                # 程序运行日志
+│
+├── 示例文档/                  # 示例上传文档（PDF/Word/TXT 等）
+│   ├── contract.pdf
+│   └── manual.docx
+│
+├── combine_client.py          # 多文件合并处理模块
+├── custom_loader.py           # 自定义文档加载器（支持多格式解析）
+├── knowledge.py               # 核心知识库管理类：加载、索引、检索
+├── logger.py                  # 日志配置模块
+├── main.py                    # 主程序入口，Gradio UI 启动脚本
+├── models.py                  # 模型配置与初始化（Embedding / LLM）
+├── rags_eval.md               # RAG 效果评估报告（Markdown 格式）
+├── requirements.txt           # Python 依赖包列表
+└── test.py                    # 单元测试或功能验证脚本
