@@ -47,17 +47,10 @@ Python ≥ 3.9
 ChromaDB（向量存储）
 LangChain（文档加载与链式调用）
 Qwen API（Embedding 与 LLM 推理）
-安装 bash git clone https://github.com/your-username/rag-knowledge-qa.git cd rag-knowledge-qa pip install -r requirements.txt
+安装 bash git clone https://github.com/klgaadnwdeh/rag_project.git cd rag-knowledge-qa pip install -r requirements.txt
+下来直接运行main.py文件即可
+了解项目结构，有助于您们梳理清楚整体的逻辑结构的,查看文档的项目结构在/asserts/structure.txt
 
-运行示例 python from rag_app import RAGApplication
-
-app = RAGApplication( embedding_model="qwen-embedding", llm_model="qwen-max" )
-
-上传文档并构建索引 app.load_document("contract.pdf", collection_name="my_contract")
-
-提问 response = app.query("合同违约金是多少？") print(response)
-
-更多使用方式请参考 examples/ 目录。
 
 📊 效果评估
 
@@ -69,7 +62,7 @@ F1 Score 85%
 
 Faithfulness（事实一致性） >0.9
 
-评估脚本见 eval/ragas_eval.py。
+评估脚本见 ragas_eval.py。
 
 🛠️ 未来计划
 
