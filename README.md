@@ -78,7 +78,7 @@ Qwen API（Embedding 与 LLM 推理）
 
 下来直接运行main.py文件即可
 
-了解项目结构，有助于您们梳理清楚整体的逻辑结构的,查看文档的项目结构在/asserts/structure.txt
+了解项目结构，有助于您们梳理清楚整体的逻辑结构的,查看文档的项目结构在/asserts/structure.txt，同时还是可以查看对应的加载文档的图片内容的。
 
 
 📊 效果评估
