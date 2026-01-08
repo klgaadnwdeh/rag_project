@@ -1,9 +1,7 @@
-# rag_project
-
+rag_project
 RAG 知识问答系统
 
 一个面向企业知识库场景的检索增强生成（RAG）系统，支持多格式文档上传、智能分块、混合检索与查询优化，实现高精度、可溯源的自然语言问答。
-
 
 📌 项目简介
 
@@ -25,8 +23,7 @@ RAG 知识问答系统
 
 🧩 核心功能
 
-智能文档处理
-自动识别文件类型（PDF/DOCX/TXT 等）
+智能文档处理 自动识别文件类型（PDF/DOCX/TXT 等）
 
 针对不同内容类型采用差异化分块策略：
 
@@ -74,12 +71,15 @@ LangChain（文档加载与链式调用）
 
 Qwen API（Embedding 与 LLM 推理）
 
-安装 bash git clone https://github.com/klgaadnwdeh/rag_project.git cd rag-knowledge-qa pip install -r requirements.txt
+安装 bash git clone https://github.com/klgaadnwdeh/rag_project.git 
+
+cd rag-knowledge-qa 
+
+pip install -r requirements.txt
 
 下来直接运行main.py文件即可
 
 了解项目结构，有助于您们梳理清楚整体的逻辑结构的,查看文档的项目结构在/asserts/structure.txt，同时还是可以查看对应的加载文档的图片内容的。
-
 
 📊 效果评估
 
@@ -95,15 +95,10 @@ Faithfulness（事实一致性） >0.9
 
 🛠️ 未来计划
 
-支持多轮对话上下文感知检索,
-增加用户反馈机制与在线学习闭环,
-实现多租户隔离与权限控制,
-提供 Docker 镜像与 RESTful API。
-📄 许可证
+支持多轮对话上下文感知检索, 增加用户反馈机制与在线学习闭环, 实现多租户隔离与权限控制, 提供 Docker 镜像与 RESTful API。 📄 许可证
 
 本项目采用 Apache License 2.0 开源协议。
 
 💬 贡献与反馈
 
-欢迎提交 Issue 或 Pull Request！
-如果您在实际业务中使用了本项目，也欢迎分享您的场景与改进建议。
+欢迎提交 Issue 或 Pull Request！ 如果您在实际业务中使用了本项目，也欢迎分享您的场景与改进建议。
